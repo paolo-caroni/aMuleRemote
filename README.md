@@ -34,3 +34,17 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+
+## List of dependences of aMule Remote
+
+org.acra.ACRA
+https://github.com/ACRA/acra
+Apache License Version 2.0 (GPLv3 compatible)
+
+de.keyboardsurfer.android.widget.crouton.Crouton
+https://github.com/keyboardsurfer/Crouton
+Apache License Version 2.0 (GPLv3 compatible)
+
+com.google.android.gms
+https://github.com/microg/android_packages_apps_GmsCore
+Apache License Version 2.0 (GPLv3 compatible)

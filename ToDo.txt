@@ -1,0 +1,6 @@
+To Do list:
+
+- If possible remove dependecy of "com.google.android.gms" that is proprietary (however exist microg);
+- Add support for aMule 2.3.2;
+- Maintenance in order to be compatible with Android 5.0+ (without remove support for old Android 2.2);
+- 
