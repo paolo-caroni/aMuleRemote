@@ -85,13 +85,6 @@ public class SearchActivity extends AppCompatActivity implements AlertDialogList
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mFragManager = getSupportFragmentManager();
 
-        AdView adView = (AdView)this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("TEST_DEVICE_ID")
-                .build();
-        adView.loadAd(adRequest);
-
     }
 
     @Override

@@ -151,12 +151,6 @@ public class DlQueueActivity extends AppCompatActivity implements AlertDialogLis
         mActionBar = getSupportActionBar();
         createNavigation();
         mApp.mSettingsHelper.mNeedNavigationRefresh = true;
-
-        AdView adView = (AdView)this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        adView.loadAd(adRequest);
         
         Intent i = getIntent();
         String a = i.getAction();

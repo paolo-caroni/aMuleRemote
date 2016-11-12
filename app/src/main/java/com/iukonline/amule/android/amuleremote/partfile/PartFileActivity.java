@@ -162,14 +162,6 @@ public class PartFileActivity extends AppCompatActivity implements AlertDialogLi
                 }
             }
         });
-        
-        
-        AdView adView = (AdView)this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("TEST_DEVICE_ID")
-                .build();
-        adView.loadAd(adRequest);
 
 
     }

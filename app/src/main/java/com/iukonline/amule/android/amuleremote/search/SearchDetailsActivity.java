@@ -86,13 +86,6 @@ public class SearchDetailsActivity extends AppCompatActivity implements AlertDia
             getSupportFragmentManager().beginTransaction().add(R.id.search_details_frag_result_details, f).commit();
         }
 
-        AdView adView = (AdView)this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("TEST_DEVICE_ID")
-                .build();
-        adView.loadAd(adRequest);
-
 
     }
 
