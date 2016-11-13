@@ -45,10 +45,6 @@ de.keyboardsurfer.android.widget.crouton.Crouton
 https://github.com/keyboardsurfer/Crouton
 Apache License Version 2.0 (GPLv3 compatible)
 
-com.google.android.gms (proprietary trash, but there is microg project)
-https://github.com/microg/android_packages_apps_GmsCore
-Apache License Version 2.0 (GPLv3 compatible)
-
 com.github.machinarius.preferencefragment
 https://github.com/Machinarius/PreferenceFragment-Compat
 Apache License Version 2.0 (GPLv3 compatible)
